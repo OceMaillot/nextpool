@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_sheets
+    database: decideom_lyon
+    schema: google_sheets
+    tables:
+      - name: factures
+      - name: objectifs
