@@ -2,6 +2,7 @@ with f_facture as (
     select code_client as code_client,
            code_art as code_art,
            code_commercial as code_commercial,
+           code_etb as code_etablissement,
            TO_DATE(date_fac, 'DD/MM/YYYY') AS date_fac,
            qte_fac as quantite_fac,
            ca_ligne as chiffre_affaire_fac
